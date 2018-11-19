@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+# CTA
+--------------------------------------------------------------*/
+.block-cta {
+	background-color: #eee;
+}
+
+.block-cta + .block-cta {
+	background-color: #fff
+}
+.block-cta .row {
+	min-height: 50px;
+}
+.block-cta h2,
+.block-cta h3 {
+	margin: 0 0 20px;
+}
+.block-cta p {
+	margin: 0 0 20px;
+}
+.block-cta h2:last-child,
+.block-cta h3:last-child,
+.block-cta p:last-child {
+	margin-bottom: 0;
+}
+@media only screen and (min-width: 992px) {
+	.block-cta .row {
+		min-height: 200px;
+	}
+}
