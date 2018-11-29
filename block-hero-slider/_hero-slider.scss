@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+# Hero - Slider
+--------------------------------------------------------------*/
+.hero-slides-wrapper {
+	overflow: hidden;
+}
+.hero-slide-item,
+.hero-slide-item .row {	
+	min-height: 400px
+}
+
+@media only screen and (min-width: 768px) {
+	.hero-slide-item,
+	.hero-slide-item .row {	
+		min-height: 500px
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.hero-slide-item,
+	.hero-slide-item .row {	
+		min-height: 700px
+	}
+}

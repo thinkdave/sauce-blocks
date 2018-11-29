@@ -1,10 +1,23 @@
 <?php /*
+1. Add CSS via:
+    - scss/5-blocks/_accordion.scss
 
-- Add js code from accordion.js into sauce/js/main.js 
+2. Import CSS via scss/style.scss 
+		@import '5-blocks/_accordion.scss';
 
+3. Add jQuery snippet to  /js/main.js:
 
- */?>
-<?php
+	// BLOCK ACCORDION
+	//--------------------------------------------------------//
+	$('.block-accordion .item-title h3').on('click', function() {
+			$(this).parent().next().slideToggle();
+	        $(this).toggleClass('active');
+	        return false;
+    	});
+	}
+	//--------------------------------------------------------//
+
+*/
 	if(get_sub_field('custom_html_id')) {
 		$html_id = 'id="';
 		$html_id .= get_sub_field('custom_html_id');
@@ -53,4 +66,4 @@
   		</div><!-- .row -->
 	</div><!-- .container -->
 </section>
-<!--hero-->
+<!--accordion-->

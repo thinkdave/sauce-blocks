@@ -19,16 +19,16 @@
 	<div class="container">
 		<div class="row">
 			<?php if (get_sub_field('single_column')){ ?>
-			<div class="col-md-12 col-lg-12 align-self-center text-center">
-				<?php the_sub_field('content'); ?>
-			</div>
+				<div class="col-md-12 col-lg-12 align-self-center text-center">
+					<?php the_sub_field('content'); ?>
+				</div>
 			<?php }else{ ?>
-			<div class="col-md-12 col-lg-9 align-self-center">
-				<?php the_sub_field('content'); ?>
-			</div>
-			<div class="col-md-12 col-lg-3 align-self-center">
-				<?php the_sub_field('content_2'); ?>
-			</div>	
+				<div class="col-md-12 col-lg-9 align-self-center">
+					<?php the_sub_field('content'); ?>
+				</div>
+				<div class="col-md-12 col-lg-3 align-self-center">
+					<?php the_sub_field('content_2'); ?>
+				</div>	
 			<?php } ?>
 		</div>
 	</div>

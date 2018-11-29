@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+# Team with bios
+--------------------------------------------------------------*/
+.block-team-bios {
+	
+}
+.block-team-bios .team-member {
+	cursor: pointer
+}
+
+.block-team-bios .team-member .member-thumb{}
+.block-team-bios .team-member .member-thumb img{
+	display: block;
+	margin: 0 auto 0px;
+}
+.block-team-bios .team-member .member-bio-mobile {
+	display: none;
+	position: relative;
+	padding-right: 30px;
+}
+.block-team-bios .member-bio-text p {
+	margin: 0 0 20px;
+}
+.block-team-bios .team-member .member-bio-mobile h3,
+.block-team-bios .team-member .member-bio-mobile .member-position {
+	display: none;
+}
+
+.block-team-bios .team-member .member-bio-mobile a.close {
+	position: absolute;
+	display:block;
+	width: 20px;
+	height: 20px;
+	top: 0;
+	right: 0;
+	background: url(img/icon-close.svg) no-repeat 0 0 / 20px auto;
+}
+@media screen and (min-width: 768px) {
+	.block-team-bios .team-member .member-bio-desktop .more-info {
+		display: none;
+	}
+	.block-team-bios .team-member .member-bio-mobile h3,
+	.block-team-bios .team-member .member-bio-mobile p {
+		display: none;
+	}  
+	.block-team-bios .summary {
+		display:none;
+		background: #eee;
+	}
+	.block-team-bios .summary .container .row{
+		position: relative;
+	}
+	.block-team-bios .summary a.close {
+		position: absolute;
+		display:block;
+		width: 30px;
+		height: 30px;
+		top: 0;
+		right: 0;
+		background: url(img/icon-close.svg) no-repeat 0 0 / 30px auto;
+	}
+
+}
