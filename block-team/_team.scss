@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+# Team (simple without bios)
+--------------------------------------------------------------*/
+.block-team {
+	background: #eee;
+}
+.block-team .team-member {}
+
+.block-team .team-member .member-thumb{}
+.block-team .team-member .member-thumb img{
+	display: block;
+	margin: 0 auto 0px;
+}
+.block-team .team-member .member-info {
+	
+}
+.block-team .team-member .member-info h3 {}
+.block-team .team-member .member-info p {}
+@media screen and (min-width: 992px) {
+  
+}

@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+.hero-video {
+  position: relative;
+  overflow: hidden
+}
+.hero-video .overlay {
+	position:absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.25);
+}
+#hero-video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+}
+
+.hero-video .row {
+	height: 500px;
+}
+@media screen and (min-width: 992px) {
+	.hero-video .row{
+		height: 700px
+	}
+  
+}
